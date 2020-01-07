@@ -1,0 +1,18 @@
+Light: 10.0 32.0 20.0
+LightArea: -1
+Eye: 0.0 5.0 25.0
+Lookat: 0.0 5.0 0.0
+Up: 0.0 1.0 0.0
+ResolutionX: 1000
+ResolutionY: 1000
+PlaneWidth: 50.0
+PlaneHeight: 50.0
+FocalDistance: 50.0
+BackGroundColor: 0.4 1.0 0.8
+Sphere: Radius: 3.0 Origin: -3 -2 5 Color: 1 0.9 0.4 Reflect: 0.8
+Sphere: Radius: 1.0 Origin: -2 7 13 Color: 1 0.2 0.6 Reflect: 0.5
+Sphere: Radius: 2.0 Origin: 6 10 8 Color: 1 0.5 0.7 Reflect: 0.6
+Sphere: Radius: 3.0 Origin: 2 5 5 Color: 1 0.9 0.4 Reflect: 0.3
+Sphere: Radius: 1.0 Origin: -5 9 13 Color: 1 0.2 0.6 Reflect: 0.3 
+Sphere: Radius: 2.0 Origin: 8 -1 5 Color: 1 0.5 0.7 Reflect: 1.0
+Sphere: Radius: 2.0 Origin: 0 5 30 Color: 1 0.5 0.7 Reflect: 0.3

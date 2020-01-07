@@ -1,0 +1,19 @@
+Light: 0.0 19.0 10.0
+LightArea: 1
+Eye: 0.0 10.0 40.0
+Lookat: 0.0 10.0 0.0
+Up: 0.0 1.0 0.0
+ResolutionX: 1000
+ResolutionY: 1000
+PlaneWidth: 50.0
+PlaneHeight: 50.0
+FocalDistance: 50.0
+BackGroundColor: 0.8 0.8 1.0
+Plane: Origin: 0.0 0.0 0.0 Normal: 0.0 1.0 0.0 Color: 0.8 0.8 1.0 Reflect: 0.0
+Triangle: A: -10 20 0 B: 10 20 0 C: -10 0 0 Color: 0.9 0.5 0 Reflect: 0.0
+Triangle: A: 10 20 0 B: 10 0 0 C: -10 0 0 Color: 0.9 0.5 0 Reflect: 0.0
+Triangle: A: 10 20 0 B: 10 20 20 C: 10 0 0 Color: 0.9 0.5 0 Reflect: 0.0
+Triangle: A: 10 20 20 B: 10 0 20 C: 10 0 0 Color: 0.9 0.5 0 Reflect: 0.0
+Triangle: A: -10 20 20 B: -10 20 0 C: -10 0 20 Color: 0.9 0.5 0 Reflect: 0.0
+Triangle: A: -10 20 0 B: -10 0 0 C: -10 0 20 Color: 0.9 0.5 0 Reflect: 0.0
+Sphere: Radius: 4 Origin: 0 10 10 Color: 0.7 1 0.5 Reflect: 0.0

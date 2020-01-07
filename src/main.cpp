@@ -313,7 +313,8 @@ int main() {
 	float focalDist = 50.f;
     background_color = math::Vec3f(0.f, 0.f, 0.f);
 
-  fstream file_in("../RayTracer-RoxanneDuchesne/Spheres.txt");
+  fstream file_in;
+  file_in.open("..\\Tree.txt");
   std::string line;
 
   try {
@@ -385,15 +386,16 @@ int main() {
                   surfaces.push_back(makeIntersectable(p));
               }
           }
+		 file_in.close();
      }
      else {
-          cout << "Input.txt was not able to be opened" << endl;
-          //exit(1);
+          cout << "Inputted text file was not able to be opened" << endl;
+          exit(1);
     }
   }
   catch(...) {
       cout << "File Wasn't Formatted Correctly" << endl;
-      //exit(-1);
+      exit(-1);
   }
 
 
